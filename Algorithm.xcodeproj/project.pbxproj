@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE0C590D20B5998D0006594B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE0C590C20B5998D0006594B /* main.cpp */; };
+		DE0C591720B599EF0006594B /* Hanoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE0C591420B599EF0006594B /* Hanoi.cpp */; };
+		DE0C591820B599EF0006594B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE0C591620B599EF0006594B /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		DE0C590920B5998D0006594B /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE0C590C20B5998D0006594B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DE0C591420B599EF0006594B /* Hanoi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hanoi.cpp; sourceTree = "<group>"; };
+		DE0C591520B599EF0006594B /* Hanoi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hanoi.h; sourceTree = "<group>"; };
+		DE0C591620B599EF0006594B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,7 @@
 		DE0C590020B5998D0006594B = {
 			isa = PBXGroup;
 			children = (
-				DE0C590B20B5998D0006594B /* Algorithm */,
+				DE0C591320B599EF0006594B /* Classes */,
 				DE0C590A20B5998D0006594B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +57,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DE0C590B20B5998D0006594B /* Algorithm */ = {
+		DE0C591320B599EF0006594B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DE0C590C20B5998D0006594B /* main.cpp */,
+				DE0C591420B599EF0006594B /* Hanoi.cpp */,
+				DE0C591520B599EF0006594B /* Hanoi.h */,
+				DE0C591620B599EF0006594B /* main.cpp */,
 			);
-			path = Algorithm;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE0C590D20B5998D0006594B /* main.cpp in Sources */,
+				DE0C591820B599EF0006594B /* main.cpp in Sources */,
+				DE0C591720B599EF0006594B /* Hanoi.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
