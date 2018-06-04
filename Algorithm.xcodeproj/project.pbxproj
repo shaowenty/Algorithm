@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DE0C591720B599EF0006594B /* Hanoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE0C591420B599EF0006594B /* Hanoi.cpp */; };
 		DE0C591820B599EF0006594B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE0C591620B599EF0006594B /* main.cpp */; };
+		DEBF736120C55B9C0090E6E9 /* Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEBF735F20C55B9C0090E6E9 /* Fibonacci.cpp */; };
+		DEBF736420C55C120090E6E9 /* ToolFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEBF736220C55C110090E6E9 /* ToolFunction.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		DE0C591420B599EF0006594B /* Hanoi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hanoi.cpp; sourceTree = "<group>"; };
 		DE0C591520B599EF0006594B /* Hanoi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hanoi.h; sourceTree = "<group>"; };
 		DE0C591620B599EF0006594B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DEBF735F20C55B9C0090E6E9 /* Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fibonacci.cpp; sourceTree = "<group>"; };
+		DEBF736020C55B9C0090E6E9 /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
+		DEBF736220C55C110090E6E9 /* ToolFunction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ToolFunction.cpp; sourceTree = "<group>"; };
+		DEBF736320C55C120090E6E9 /* ToolFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolFunction.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				DE0C591420B599EF0006594B /* Hanoi.cpp */,
 				DE0C591520B599EF0006594B /* Hanoi.h */,
 				DE0C591620B599EF0006594B /* main.cpp */,
+				DEBF735F20C55B9C0090E6E9 /* Fibonacci.cpp */,
+				DEBF736020C55B9C0090E6E9 /* Fibonacci.h */,
+				DEBF736220C55C110090E6E9 /* ToolFunction.cpp */,
+				DEBF736320C55C120090E6E9 /* ToolFunction.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -123,6 +133,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEBF736120C55B9C0090E6E9 /* Fibonacci.cpp in Sources */,
+				DEBF736420C55C120090E6E9 /* ToolFunction.cpp in Sources */,
 				DE0C591820B599EF0006594B /* main.cpp in Sources */,
 				DE0C591720B599EF0006594B /* Hanoi.cpp in Sources */,
 			);

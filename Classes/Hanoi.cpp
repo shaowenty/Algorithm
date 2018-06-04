@@ -6,6 +6,8 @@
 //  Copyright © 2018年 shaowenty. All rights reserved.
 //
 
+
+// http://www.cnblogs.com/xxNote/category/611313.html
 #include "Hanoi.h"
 void hanoiInternal(const int & n , const char* &  A , const char*  & B ,const char* & C){
     if(n == 1){
